@@ -109,59 +109,31 @@ The proposed system implements a **multilayer grayscale image encryption process
 
 ### System Overview
 
-┌──────────────────────────────────────────────┐
-│ Grayscale Image Encryption System │
-└──────────────────────┬───────────────────────┘
-│
-▼
-┌─────────────────┐
-│ Original Image │
-│ Lena / Baboon / │
-│ Peppers │
-└────────┬────────┘
-│
-▼
-┌─────────────────┐
-│ PHTC │
-│ Transformation │
-└────────┬────────┘
-│
-▼
-┌─────────────────┐
-│ Key-Dependent │
-│ S-Box Generation│
-└────────┬────────┘
-│
-▼
-┌─────────────────┐
-│ S-Box │
-│ Substitution │
-└────────┬────────┘
-│
-▼
-┌─────────────────┐
-│ Nonlinear XOR │
-│ Diffusion │
-└────────┬────────┘
-│
-▼
-┌─────────────────┐
-│ Encrypted Image │
-│ (Cipher Image) │
-└────────┬────────┘
-│
-▼
-┌─────────────────┐
-│ Security │
-│ Evaluation │
-└─────────────────┘
-│
-▼
-┌──────────────────────────────┐
-│ Entropy · NPCR · UACI │
-│ Correlation · Histograms │
-└──────────────────────────────┘
+The following diagram illustrates the main workflow of the grayscale image encryption system.
 
+```mermaid
+flowchart TD
+    A["Original Grayscale Image<br/>Lena / Baboon / Peppers"]
+    B["PHTC Transformation"]
+    C["Key Processing"]
+    D["Key-Dependent S-Box Generation"]
+    E["S-Box Substitution"]
+    F["Nonlinear XOR Diffusion"]
+    G["Encrypted Image<br/>(Cipher Image)"]
+    H["Security Evaluation"]
+    I["Entropy · NPCR · UACI"]
+    J["Pixel Correlation · Histograms"]
+
+    A --> B
+    C --> D
+    B --> E
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
+    H --> J
+```
 
 ### Decryption Process
 

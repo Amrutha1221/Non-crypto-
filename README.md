@@ -1065,4 +1065,87 @@ Potential future improvements include:
 
 ---
 
-**Important Security Note:** This project is an educational implementation for exploring image encryption and statistical evaluation. Its measured results do not establish resistance to cryptographic attacks, so it should not be relied upon to protect sensitive images without substantial further security analysis.
+## 👥 Contributors
+
+**Team Members:**
+
+- **Amrutha B** — ENG24CY0005
+- **Eshani Shetty** — ENG24CY0020
+- **Swati K Hegde** — ENG24CS0252
+- **Shreya S K** — ENG24CS0222
+
+**Institution:**  School of Engineering, Dayananda Sagar University
+
+---
+
+## 🧑‍🏫 Mentor
+
+**Dr. Prajwalasimha S N, Ph.D., Postdoc. (NewRIIS)**  
+Associate Professor
+Department of Computer Science and Engineering (Cyber Security)
+School of Engineering, Dayananda Sagar University
+
+---
+
+## 🔬 Laboratory
+
+**TTEH LAB**
+School of Engineering
+Dayananda Sagar University
+Bangalore – 562112, Karnataka, India
+
+---
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- **IEEE Paper:** Non Chaotic Crypt: An Implementation based on Modified Pseudo Hadamard Transformation.
+- **Dayananda Sagar University:** Institutional support and resources.
+- **TTEH LAB:** Research facilities and guidance.
+- **Open Source Community:** NumPy, Pillow, Matplotlib libraries.
+
+---
+
+## 📧 Contact
+
+For questions, suggestions, or collaboration related to this project, please contact the project contributors through the GitHub repository.
+
+- 💻 **GitHub Repository:** [Grayscale Image Encryption System](https://github.com/Amrutha1221/Non-crypto)
+
+---
+
+## 🔗 Resources
+
+- 💻 **Source Code:** [GitHub Repository](https://github.com/Amrutha1221/Non-crypto)
+- 📊 **Sample Images:** Lena, Baboon, and Peppers
+- 📈 **Security Analysis:** Entropy, NPCR, UACI, pixel correlation, and histogram analysis
+- 📚 **Documentation:** See this README for installation instructions, architecture, implementation details, and results.
+
+---
+
+## 📌 Project Status
+
+| **Component** | **Status** |
+|---|---|
+| PHTC Transformation | Implemented |
+| Key-Dependent S-Box Generation | Implemented |
+| Nonlinear XOR Diffusion | Implemented |
+| Image Encryption | Implemented |
+| Image Decryption | Implemented |
+| Decryption Verification | Tested |
+| Security Metrics | Implemented |
+| Histogram Analysis | Implemented |
+| Multiple Sample Images | Tested |
+| Performance Benchmarking | Future Improvement |
+| Secure Random Key Generation | Future Improvement |
+| Extended Cryptographic Security Analysis | Future Improvement |
+
+---
+
+**Built with 🔐 for Educational Image Encryption and Security Analysis**
+
+© 2026 — Grayscale Image Encryption System

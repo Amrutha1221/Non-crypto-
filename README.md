@@ -624,8 +624,8 @@ The main script coordinates the project's workflow, including image loading, enc
 #### Step 1: Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone: https://github.com/Amrutha1221/Non-crypto-?utm_source=chatgpt.com
+cd: Non-crypto
 ```
 
 Replace `<repository-url>` with your GitHub repository URL and `<repository-folder>` with the name of your project folder.
